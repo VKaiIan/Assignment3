@@ -42,13 +42,12 @@ table {
   background-color: rgb(250, 128, 114);
 }
 
-#progress {
-  width: 100px;
+.progress {
+  width: 100%;
   background-color: grey;
 }
 
 #bar {
   width: 10px;
   height: 30px;
-  background-color: green;
 }

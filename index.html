@@ -5,17 +5,36 @@
 	<title>Tic Tac Toe</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="src/styles.css">
+
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+
 </head>
 
 <body>
 
-	<div id="timer"></div>
+	 <div class="progress row">
+      <div id="bar" class="determinate col12"></div>
+  </div>
+
+
+<!--
+<div id="timer"></div>
 
 	<div id="prgress">
   	<div id="bar"></div>
 	</div>
+	-->
+	<div class="row">
+      <div class="col s1" ></div>
+			<div class="col s10" id="board"></div>
+      <div class="col s1" ></div>
+    </div>
 
-	<div id="board"></div>
 
 	<script src="src/index.js">
 	</script>
